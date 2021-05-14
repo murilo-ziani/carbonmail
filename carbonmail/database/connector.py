@@ -6,7 +6,7 @@ from carbonmail.utils import root_folder
 
 
 def get_db_file():
-    db_folder = os.path.join(root_folder(), 'database')
+    db_folder = os.path.join(root_folder(), "database")
 
     if not os.path.exists(db_folder):
         os.makedirs(db_folder)
